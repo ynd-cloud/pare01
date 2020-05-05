@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pare01/screens/NewDocPage.dart';
+import 'package:pare01/screens/SignupPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Flutter Demo Home Page, Test'),
     );
   }
 }
@@ -91,6 +93,8 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            RaisedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context) => NewDocPage()),);}, child: Text('New Doc'),),   
+            RaisedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context) => SignupPage()),);}, child: Text('Sign Up'),),   
             Text(
               'You have pushed the button this many times:',
             ),

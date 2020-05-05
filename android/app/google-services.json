@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "476073619242",
+    "firebase_url": "https://satit-d15a9.firebaseio.com",
+    "project_id": "satit-d15a9",
+    "storage_bucket": "satit-d15a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476073619242:android:350c9388e5a8e6ce1ef853",
+        "android_client_info": {
+          "package_name": "com.example.hellotest03"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476073619242-tcd4g3ea96c31aop4vgdp9nnm5d659u7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy2yKykzcOqckwwC0q2u6S9AYtYqIY2_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476073619242-tcd4g3ea96c31aop4vgdp9nnm5d659u7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
